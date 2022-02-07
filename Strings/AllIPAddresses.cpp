@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 #include<iostream>
 #include<string>
-
+/*Backtrackking question probably could make it a lot better using DP or something but that is a project for another time*/
 using namespace std;
 
 void Solve(string st, int s, int e, int lvl, string a,vector <string> &ans)
@@ -44,7 +44,7 @@ void Solve(string st, int s, int e, int lvl, string a,vector <string> &ans)
     }
 }
 int main(){
-    string s = "100";
+    string s = "255119225100";
     vector <string> ans;
     string a="";
     int start = 0;
